@@ -1,0 +1,122 @@
+body{
+    width: 90vw;
+    height: 90vh;
+}
+/* Заголовок */
+.head-part{
+    padding-top: 90px;
+    padding-left: 76px;
+    padding-right: 74px;
+    display: flex;
+    justify-content: space-between;
+}
+/* Переход между страницами */
+.menu {
+    padding-left: 76px;
+}
+/* Основная часть */
+.main-part {
+    padding-left: 125px;
+}
+.main-part__title {
+    font-family: Intro;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 120%;
+}
+.main-part__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10%;
+}
+.main-item {
+    display: flex; 
+    flex-direction: column;
+    width: 365px;
+    align-items: flex-start;
+}
+.main-item__image {
+    width: 365px;
+    height: 270px;
+}
+.main-item__title {
+    font-family: Intro ;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 120%;
+}
+.main-item__text {
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 160%;
+}
+.container-parts{
+    display: grid;
+    grid-template-columns: 45% 1fr;
+}
+/* Форма email*/
+.main-item-form {
+    display: flex; 
+    flex-direction: column;
+    width: 365px;
+    padding-left: 18px;
+    align-items: flex-start;
+    background-color: rgb(236, 97, 91);
+    gap:15px;
+}
+.form-title {
+    font-family: Intro;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 120%;
+    color: rgb(255, 255, 255);
+}
+label{
+    width: 323px;
+    height: 50px;
+}
+/* Кнопки */
+.button-email, .head-part__button-basket, .button-card{
+    border-radius: 100px;
+    background: rgb(82, 34, 208);
+    color:rgb(255, 255, 255);
+    font-family: Intro ;
+    font-weight: 400;
+}
+.button-email{
+    width: 135px;
+    height: 38px;
+    font-size: 13px;
+    line-height: 13px;
+}
+
+.head-part__button-basket {
+    width: 115px;
+    height: 38px;
+    font-size: 13px;
+    line-height: 13px;
+}
+.button-card{
+    width: 270px;
+    height: 84px;
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+/* Подвал */
+.nav-footer {
+    padding-left: 126px;
+    padding-bottom: 80px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-footer__item {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
